@@ -28,7 +28,7 @@ git clone https://github.com/jemmamariex3/Coding-Challenge.git
 Enter the directory using basic bash commands
 
 ``` bash
-cd CareerCenter 
+cd Code_Challenge 
 ```
 
 Install all dependencies
