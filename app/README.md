@@ -22,7 +22,7 @@ npm install -g react-native-cli
 Git clone this repo into your local terminal (Better if in the IDE)
 
 ``` bash
-git clone https://github.com/jemmamariex3/CareerCenter.git
+git clone https://github.com/jemmamariex3/Coding-Challenge.git
 ```
 
 Enter the directory using basic bash commands
