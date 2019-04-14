@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {StyleSheet, SafeAreaView, View, Text, Image, Dimensions, ImageBackground, TouchableOpacity} from 'react-native';
-import iPhoneSize from "../helper/utiils";
+import iPhoneSize from "../utils/utiils";
 import {Search} from "./Search";
 
 const width = iPhoneSize();

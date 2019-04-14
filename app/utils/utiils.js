@@ -1,4 +1,4 @@
-/// this contains a helper method that determines the size of the iphone
+/// this contains a utils method that determines the size of the iphone
 import React from 'react';
 import {Dimensions} from 'react-native'
 const iPhoneSize = () =>{
