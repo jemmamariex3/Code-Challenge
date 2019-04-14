@@ -4,7 +4,7 @@ import iPhoneSize from "../helper/utiils";
 import {Search} from "./Search";
 
 const width = iPhoneSize();
-export class Forecast extends Component{
+export class Maps extends Component{
     constructor(props){
         super(props);
         // alert(iPhoneSize());
@@ -12,9 +12,9 @@ export class Forecast extends Component{
     render(){
         return(
             <SafeAreaView contentContainerStyle={styles.container}>
-                <ImageBackground style={styles.imageContainer} source={require('../assets/weatherHeader.png')}>
-                    <Search/>
-                </ImageBackground>
+                <Text>
+                    MAPS
+                </Text>
             </SafeAreaView>
         )
     }
