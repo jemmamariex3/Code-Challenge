@@ -8,13 +8,13 @@
 
 import React, {Component} from 'react';
 import {StyleSheet, SafeAreaView} from 'react-native';
-import {Bookmark} from "./app/views/Bookmark";
+import {Main} from "./app/views/Main";
 
 export default class App extends Component<Props> {
   render() {
     return (
       <SafeAreaView>
-        <Bookmark/>
+        <Main/>
       </SafeAreaView>
     );
   }

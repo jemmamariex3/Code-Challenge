@@ -64,7 +64,7 @@ The resulting app should have UI that closely resembles the provided design mock
   - Use Google Place Details to retrieve all relevant data, such as name, address, rating, and etc
   - Use Google Place Photo to show a photo from place
   - Use Google Place Static Maps to show a image of location on map
-  - Correct ‘Bookmark’ button depending on if place is bookmarked
+  - Correct ‘Main’ button depending on if place is bookmarked
 
 ### Optional
 
