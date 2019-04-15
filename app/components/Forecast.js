@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {StyleSheet, SafeAreaView, View, Text, Image, Dimensions, ImageBackground, TouchableOpacity} from 'react-native';
-import iPhoneSize from "../utils/utiils";
+import iPhoneSize from "../utils/utils";
 import {Search} from "./Search";
 
-import { API_KEY } from '../utils/WeatherAPIKey';
+import {API_KEY} from '../utils/WeatherAPIKey';
 const width = iPhoneSize();
 
 export class Forecast extends Component{

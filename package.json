@@ -11,6 +11,7 @@
   "dependencies": {
     "react": "16.8.3",
     "react-native": "0.59.4",
+    "react-native-google-places": "^2.5.2",
     "react-native-maps": "^0.24.0"
   },
   "devDependencies": {

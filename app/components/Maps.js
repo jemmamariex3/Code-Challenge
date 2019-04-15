@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import {StyleSheet, SafeAreaView, View, Text, Image, Dimensions, ImageBackground, TouchableOpacity} from 'react-native';
 import MapView, {PROVIDER_GOOGLE} from 'react-native-maps'
-import iPhoneSize from "../utils/utiils";
-import {Search} from "./Search";
+import iPhoneSize from "../utils/utils";
 
 const width = iPhoneSize();
 export class Maps extends Component{
@@ -11,18 +10,23 @@ export class Maps extends Component{
         // alert(iPhoneSize());
     }
     render(){
+        const region = {
+            latitude: 42.882004,
+            longitude: 74.582748,
+            latitudeDelta: 0.0922,
+            longitudeDelta: 0.0421
+        }
         return(
             <View style={styles.container}>
                 <MapView
-                    provider={PROVIDER_GOOGLE}
+                    provider={MapView.PROVIDER_GOOGLE}
                     style={styles.map}
-                    region={{
-                        latitude: 42.882004,
-                        longitude: 74.582748,
-                        latitudeDelta: 0.0922,
-                        longitudeDelta: 0.0421
-                    }}
+                    initialRegion={region}
                     showsUserLocation={true}
+                />
+                <MapView.Marker
+                    coordinate={region}
+                    pinColor="green"
                 />
             </View>
         )

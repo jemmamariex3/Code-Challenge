@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {StyleSheet, SafeAreaView,Text, Image, TouchableOpacity,ScrollView, Button, Modal, View} from 'react-native';
 
-import iPhoneSize from "../utils/utiils";
+import iPhoneSize from "../utils/utils";
 import {Maps} from "./Maps";
 
 const width = iPhoneSize();

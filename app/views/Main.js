@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {StyleSheet, SafeAreaView, View, Text, Image, ImageBackground, TouchableOpacity} from 'react-native';
-import iPhoneSize from "../utils/utiils";
+import iPhoneSize from "../utils/utils";
 import {Forecast} from "../components/Forecast";
 import {Bookmarks} from "../components/Bookmarks";
 

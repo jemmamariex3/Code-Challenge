@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {StyleSheet, SafeAreaView, View, Text, Image, Dimensions, ImageBackground, TouchableOpacity} from 'react-native';
-import iPhoneSize from "../utils/utiils";
+import {StyleSheet, SafeAreaView, View, Text, Image, Dimensions, ImageBackground, TouchableOpacity, ListView, List} from 'react-native';
+import iPhoneSize from "../utils/utils";
 
 const width = iPhoneSize();
 export class Bookmarks extends Component{
@@ -18,6 +18,14 @@ export class Bookmarks extends Component{
                     <Text style={[styles.text, styles.subtitle]}>
                         Click the blue plus to pin a place
                     </Text>
+                    {/*<List>*/}
+                        {/*<ListItem>*/}
+                            {/*<Text> Placeholder here</Text>*/}
+                        {/*</ListItem>*/}
+                        {/*<ListItem>*/}
+                            {/*<Text> Placeholder2 here</Text>*/}
+                        {/*</ListItem>*/}
+                    {/*</List>*/}
                 </View>
             </SafeAreaView>
         )

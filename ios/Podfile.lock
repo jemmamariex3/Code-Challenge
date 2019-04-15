@@ -33,6 +33,11 @@ PODS:
   - GoogleMaps/Base (2.5.0)
   - GoogleMaps/Maps (2.5.0):
     - GoogleMaps/Base
+  - GooglePlacePicker (2.5.0):
+    - GoogleMaps (= 2.5.0)
+    - GooglePlaces (= 2.5.0)
+  - GooglePlaces (2.5.0):
+    - GoogleMaps/Base (= 2.5.0)
   - GoogleUtilities (5.3.7):
     - GoogleUtilities/AppDelegateSwizzler (= 5.3.7)
     - GoogleUtilities/Environment (= 5.3.7)
@@ -139,6 +144,8 @@ DEPENDENCIES:
   - Google-Maps-iOS-Utils (= 2.1.0)
   - GoogleAppMeasurement (= 5.4)
   - GoogleMaps (= 2.5.0)
+  - GooglePlacePicker
+  - GooglePlaces
   - GoogleUtilities (= 5.3.7)
   - react-native-google-maps (from `../node_modules/react-native-maps`)
   - react-native-maps (from `../node_modules/react-native-maps`)
@@ -163,6 +170,8 @@ SPEC REPOS:
     - Google-Maps-iOS-Utils
     - GoogleAppMeasurement
     - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
     - GoogleUtilities
     - nanopb
 
@@ -190,6 +199,8 @@ SPEC CHECKSUMS:
   Google-Maps-iOS-Utils: c32891ff472eaaa1fca032beedafa1a013af7875
   GoogleAppMeasurement: 98b71f5e04142793729a5ef23e5b96651ff4b70f
   GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
+  GooglePlacePicker: 1573e644ab54564d95c2643edc0f29091609e966
+  GooglePlaces: dd70d9d71ea1c7944846afe67de3712c99b30a77
   GoogleUtilities: 111a012f4c3a29c9e7c954c082fafd6ee3c999c0
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   React: 5cb71fb1a15b5ce04794ab49e24b48ebe4c94e65
@@ -197,6 +208,6 @@ SPEC CHECKSUMS:
   react-native-maps: d87d8ed456d4132112fb1d2ee9baf3470c0f211d
   yoga: 596e61c9b57751d08a22b07aba310dbd3e65ab75
 
-PODFILE CHECKSUM: 163ebb7377caf3649946c38dec385fe899cbe327
+PODFILE CHECKSUM: 7a4ef7ccf2ebf3e30d93418374a717409c2c2061
 
 COCOAPODS: 1.6.1

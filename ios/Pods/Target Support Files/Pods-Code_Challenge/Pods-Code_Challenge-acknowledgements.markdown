@@ -415,6 +415,14 @@ Copyright 2018 Google
 
 Copyright 2017 Google
 
+## GooglePlacePicker
+
+Copyright 2017 Google
+
+## GooglePlaces
+
+Copyright 2017 Google
+
 ## GoogleUtilities
 
 
