@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {StyleSheet, SafeAreaView, View, Text, Image, Dimensions, ImageBackground, TouchableOpacity} from 'react-native';
+import MapView, {PROVIDER_GOOGLE} from 'react-native-maps'
 import iPhoneSize from "../utils/utiils";
 import {Search} from "./Search";
 
@@ -12,9 +13,17 @@ export class Maps extends Component{
     render(){
         return(
             <SafeAreaView contentContainerStyle={styles.container}>
-                <Text>
-                    MAPS
-                </Text>
+                <MapView
+                    provider={PROVIDER_GOOGLE}
+                    style={{flex: 1}}
+                    region={{
+                        latitude: 42.882004,
+                        longitude: 74.582748,
+                        latitudeDelta: 0.0922,
+                        longitudeDelta: 0.0421
+                    }}
+                    showsUserLocation={true}
+                />
             </SafeAreaView>
         )
     }
