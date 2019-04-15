@@ -16,8 +16,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  NSURL *jsCodeLocation;
-  [GMSServices provideAPIKey:@"AIzaSyBMID0JVilRwXRq0UGzomSUNdUauBg59vg   "]
+  [GMSServices provideAPIKey:@"AIzaSyBMID0JVilRwXRq0UGzomSUNdUauBg59vg"];
   RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
   RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
                                                    moduleName:@"Code_Challenge"

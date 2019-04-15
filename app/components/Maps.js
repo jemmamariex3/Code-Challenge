@@ -12,10 +12,10 @@ export class Maps extends Component{
     }
     render(){
         return(
-            <SafeAreaView contentContainerStyle={styles.container}>
+            <View style={styles.container}>
                 <MapView
                     provider={PROVIDER_GOOGLE}
-                    style={{flex: 1}}
+                    style={styles.map}
                     region={{
                         latitude: 42.882004,
                         longitude: 74.582748,
@@ -24,26 +24,26 @@ export class Maps extends Component{
                     }}
                     showsUserLocation={true}
                 />
-            </SafeAreaView>
+            </View>
         )
     }
 }
 
 const styles = StyleSheet.create({
     container:{
+        position:"absolute",
+        top:0,
+        left:0,
+        right:0,
+        bottom:0,
+        justifyContent: "flex-end",
+        alignItems: "center"
     },
-    imageContainer: {
-        alignItems:'flex-end',
-        justifyContent:'flex-end',
-        width: width,
-        height: 145,
-    },
-    tripBg:{
-        width: '100%',
-    },
-    addBtn:{
-        width: 60,
-        height: 60,
-        margin: 20
+    map:{
+        position:"absolute",
+        top:0,
+        left:0,
+        right:0,
+        bottom:0,
     }
 });

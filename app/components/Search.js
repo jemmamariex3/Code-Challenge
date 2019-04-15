@@ -33,14 +33,12 @@ export class Search extends Component{
                     transparent={true}
                 >
                     <View style={styles.searchContainer}>
-                        <View style={styles.innerContainer}>
-                            <Maps/>
-                            <Button
-                                onPress={() => this.closeModal()}
-                                title="Close modal"
-                            >
-                            </Button>
-                        </View>
+                        <Maps/>
+                        <Button
+                            onPress={() => this.closeModal()}
+                            title="Close modal"
+                        >
+                        </Button>
                     </View>
                 </Modal>
             </SafeAreaView>
@@ -59,9 +57,6 @@ const styles = StyleSheet.create({
         borderColor: "#C0C0C0",
         borderRadius: 18,
         borderWidth: 2,
-    },
-    innerContainer: {
-        alignItems: 'center',
     },
     addBtn:{
         width: 60,
