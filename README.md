@@ -16,7 +16,7 @@ Email: jemmationgson@gmail.com
 
 Resume: [Jemma's Resume](https://www.jemmationgson.com/Resume2019.pdf) 
 
-Additional: [Github](https://www.github.com/jemmamariex3) | [LinkedIn](https://www.linkedin.com/in/jemmationgson)
+Additional: [Github](https://www.github.com/jemmamariex3) | [LinkedIn](https://www.linkedin.com/in/jemmationgson) | [Progress](https://mycsun.box.com/s/zsvjfpu2vbc2y77o17zuwnxs6nts7mmn)
 
 ## Intro
 
